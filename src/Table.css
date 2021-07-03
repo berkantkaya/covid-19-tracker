@@ -1,0 +1,17 @@
+.tablee{
+    margin-top: 20px;
+    height: 400px;
+    overflow: scroll;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.tablee tr:nth-of-type(odd){
+    background-color: #e6dddd;
+}
+.tablee tr{
+    display: flex;
+    justify-content: space-between;
+}
+.tablee td{
+    padding: 0.5rem;
+}
